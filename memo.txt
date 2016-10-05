@@ -1,0 +1,54 @@
+﻿
+2016/10/05
+	Androidプロジェクトを通常Javaプロジェクト化
+2013/09/13
+	三色同順の判定の誤りを修正
+2012/11/13
+	コメントをJavadoc化
+2011/12/04
+	ダイアログのモーダル表示続き
+2011/12/03
+	ダイアログのモーダル表示
+2011/12/02
+	和がり役表示まで実装
+	結局enum PlayerDirectionは使わない方向とした
+2011/12/01
+	待ち牌表示実装
+2011/11/30
+	AdvancePai実装
+	C#のref部分解消
+	門前プレイまでできるようになった
+2011/11/29
+	スレッドを稼働させてみる。配牌までできた。
+2011/11/28
+	Android GUI 牌が大きく表示される件解決
+2011/11/27
+	Android GUI 開発開始牌が大きく表示される
+2011/11/21
+	待ち牌内訳が足りない場合があるバグを修正
+2011/09/15
+	GameThread移植
+2011/09/14
+	GameThreadBase移植
+2011/09/09
+	テストプログラム移植
+2011/09/08
+	AntによるJUnit実行の仕組み作成
+2011/09/07
+	MessageQueue型移植
+	テストプログラム移植
+2011/09/06
+	ComputerPlayer, DahaiMessage, MaajanUI, Message, MessageType, PlayerCollection, ScoreData型移植
+2011/09/05
+	KanseiTehai, YakuCollection型移植
+2011/09/04
+	AgariCommand, AnkanCommand, Chii, ChiiCommand, Command, CommandType, DahaiCommand, DaiminkanCommand, DoraPaiCollection, Kan, MentsuType, Naki, PaiList, Player, PlayerDirection, Pon, PonCommand, ShouminkanCommand, TenpaiType, YakuData, YakuDataCollection, YakuType, YaochuuCollection, ZenkakuNum型移植
+2011/02/25
+	捨て牌判定を移植
+2011/02/02
+	待ち判定を移植
+2011/01/31
+	ひとまず列挙型をやめint型にする
+	続いてAllPaiクラス実装
+2011/01/30
+	C#版移植開始。しかし列挙型の実装で早速詰まる。
