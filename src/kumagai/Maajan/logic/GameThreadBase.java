@@ -1,6 +1,7 @@
 package kumagai.Maajan.logic;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * ゲーム進行メインスレッド基底部。
@@ -358,6 +359,8 @@ public abstract class GameThreadBase
 								bakaze,
 								YakuType.槍槓);
 						}
+						break;
+					default:
 						break;
 				}
 			}

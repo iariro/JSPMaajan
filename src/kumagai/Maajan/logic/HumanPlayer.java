@@ -1,6 +1,7 @@
 package kumagai.Maajan.logic;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * 人間のプレイヤー。
@@ -741,6 +742,8 @@ public class HumanPlayer
 						terminateKyoku();
 						command = null;
 						break;
+					default:
+						break;
 				}
 			}
 		}
@@ -776,6 +779,8 @@ public class HumanPlayer
 				{
 					case Agari:
 						command = new AgariCommand(direction);
+						break;
+					default:
 						break;
 				}
 			}

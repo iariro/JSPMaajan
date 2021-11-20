@@ -1,6 +1,6 @@
 package kumagai.Maajan.logic;
 
-import java.util.*;
+import java.util.ArrayList;
 
 /**
  * プレイヤーのコレクション。
@@ -71,7 +71,7 @@ public class PlayerCollection
 	 * @param yaku 特殊役
 	 */
 	public void agari(Player player, int jun, int nokoriPaiNum, boolean tsumo,
-		@SuppressWarnings("unused") Player houjuuPlayer, Pai tsumohai, ArrayList<Pai> dora, PaiKind bakaze,
+		Player houjuuPlayer, Pai tsumohai, ArrayList<Pai> dora, PaiKind bakaze,
 		YakuType yaku)
 		throws Exception
 	{
