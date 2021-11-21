@@ -84,11 +84,11 @@
 	<target name="test">
 		<junit printsummary="yes">
 
-			<classpath path="${JUNIT_LIB}:../../../Tool/Maajan/project/bin/" />
+			<classpath path="${JUNIT_LIB}:bin" />
 			<formatter type="plain" usefile="no" />
 
 			<batchtest todir=".">
-				<fileset dir="../../../Tool/Maajan/project/bin/" includes="kumagai/Maajan/logictest/**/*Test*.class" />
+				<fileset dir="bin" includes="kumagai/Maajan/logictest/**/*Test*.class" />
 			</batchtest>
 		</junit>
 	</target>
